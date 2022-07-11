@@ -6,4 +6,5 @@ body {
 
 body {
     font-family: 'Roboto', sans-serif;
+    background-color: var(--color-netflix-black);
 }
