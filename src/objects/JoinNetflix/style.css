@@ -1,0 +1,9 @@
+.join-netflix {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2em;
+}
+
+.join-netflix div {
+    display: flex;
+}
