@@ -7,4 +7,10 @@ body {
 body {
     font-family: 'Roboto', sans-serif;
     background-color: var(--color-netflix-black);
+    color: var(--color-netflix-white);
+}
+
+.container {
+    margin: 0 auto;
+    padding: 2rem;
 }
