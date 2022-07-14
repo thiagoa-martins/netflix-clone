@@ -8,7 +8,7 @@ function SignedSection() {
             ${StoryHeader()}
 
             <section class="signed-section">
-                <div class="container">
+                <div class="text">
                     <h1>Filmes, séries e muito mais. Sem limites.</h1>
 
                     <h2>Assista onde quiser. Cancele quando quiser.</h2>

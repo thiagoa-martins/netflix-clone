@@ -1,28 +1,33 @@
 .home-section {
-    background: rgba(0, 0, 0, 0.4) url("../../images/catalog.jpg");
+    background-image: url("../../images/catalog.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .signed-section {
-    max-width: 950px;
-    height: 650px;
     display: flex;
     align-items: center;
+    background: rgba(0, 0, 0, 0.4);
+    background-image: linear-gradient(0deg,rgba(0,0,0,.8) 0,transparent 60%,rgba(0,0,0,.8));
+    height: 650px;
+}
+
+.signed-section .text {
+    max-width: 940px;
     text-align: center;
     font-weight: 500;
     margin: 0 auto;
 }
 
-.signed-section h1 {
+.signed-section .text h1 {
     font-size: 4rem;
 }
 
-.signed-section h2 {
+.signed-section .text h2 {
     font-size: 1.625rem;
     margin: 1rem 0 2rem;
 }
 
-.signed-section h3 {
+.signed-section .text h3 {
     font-size: 1.2rem;
 }
