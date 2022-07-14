@@ -1,0 +1,31 @@
+.create-account {
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.create-account .email-input {
+    width: 50%;
+    padding: 20px 20px 20px 10px;
+    font-size: 1rem;
+}
+
+.create-account .email-input:focus {
+    outline: 1px solid #0000FF; 
+}
+
+.create-account .lets-go-button {
+    box-sizing: border-box;
+    width: 20%;
+    padding: 20px 20px 20px 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: var(--color-netflix-red);
+    color: var(--color-netflix-white);
+    border: none;
+    cursor: pointer;
+    border: 1px solid var(--color-netflix-red);
+}
+
+.create-account .lets-go-button:active {
+    background-color: #bb0a12;
+}
