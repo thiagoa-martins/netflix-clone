@@ -1,7 +1,6 @@
 .story-header .container {
     display: flex;
     justify-content: space-between;
-    padding-top: 2em;
 }
 
 .story-header .container div {
