@@ -18,8 +18,8 @@ function StoryCards() {
                         <img src="./src/images/tv.png" alt="Imagem de televisão">
 
                         <div class="video">
-                            <video autoplay loop>
-                                <source src="./src/videos/video-tv.m4v" type="video/mp4">
+                            <video loop autoplay>
+                                <source src="./src/videos/video-tv.mp4" type="video/mp4">
                                 Your browser does not support the video tag.
                                 Seu navegador não oferece suporte a essa tag de vídeo.
                             </video>
