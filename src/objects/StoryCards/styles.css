@@ -24,6 +24,8 @@
     position: relative;
     overflow: hidden;
     display: flex;
+    justify-content: center;
+    align-items: center;
     width: 530px;
     height: 400px;
 }
@@ -35,7 +37,7 @@
     z-index: 2;
 }
 
-.story-cards .card div.image .video {
+.story-cards .card div.image div.video {
     height: 100%;
     left: 49.5%;
     max-height: 54%;
@@ -49,4 +51,37 @@
 .story-cards .card div.image div.video video {
     width: 100%;
     height: 100%;
+}
+
+.story-cards .card div.image div.animation {
+    box-sizing: border-box;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    position: absolute;
+    width: 70%;
+    border: 2px solid var(--color-netflix-gray);
+    border-radius: 0.75em;
+    background-color: var(--color-netflix-black);
+    z-index: 2;
+    padding: 0.5rem 0.8em;
+    top: 67%;
+} 
+
+.story-cards .card div.image div.animation img {
+    width: 18%;
+    
+}
+
+.story-cards .card div.image div.animation .description {
+    margin-left: 1rem;
+}
+
+.story-cards .card div.image div.animation .description span {
+    font-weight: bold;
+}
+
+.story-cards .card div.image div.animation .description div {
+    margin-top: 0.5rem;
+    color: var(--color-netflix-blue);
 }

@@ -13,7 +13,6 @@ $root.insertAdjacentHTML(
    ${SignedSection()}
    ${EndCard()}
    ${StoryCards()}
-   ${EndCard()}
   `
 );
 
