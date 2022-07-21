@@ -19,7 +19,7 @@ function StoryCards() {
 
                         <div class="video">
                             <video autoplay playsinline muted loop>
-                                <source src="./src/videos/video-tv.mp4" type="video/mp4">
+                                <source src="./src/videos/video-tv.m4v" type="video/mp4">
                                 Your browser does not support the video tag.
                                 Seu navegador não oferece suporte a essa tag de vídeo.
                             </video>
@@ -58,6 +58,30 @@ function StoryCards() {
             </div>
             
             ${EndCard()}
+
+            <div class="container">
+                <div class="card">
+                    <div class="text">
+                        <h1>Assista quando quiser.</h1>
+                           
+                        <h2>
+                            Assista no celular, tablet, Smart TV ou notebook sem pagar a mais por isso.
+                        </h2>
+                    </div>
+                    
+                    <div class="image">
+                        <img src="./src/images/device-pile.png" alt="Imagem de televisão">
+
+                        <div class="watch-whenever-you-want">
+                            <video autoplay playsinline muted loop>
+                                <source src="./src/videos/video-devices.m4v" type="video/mp4">
+                                Your browser does not support the video tag.
+                                Seu navegador não oferece suporte a essa tag de vídeo.
+                            </video>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
     `; 
 }

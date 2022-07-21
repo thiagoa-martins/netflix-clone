@@ -31,7 +31,6 @@
 }
 
 .story-cards .card div.image img {
-    position: relative;
     width: 100%;
     height: auto;
     z-index: 2;
@@ -48,7 +47,8 @@
     width: 100%;
 }
 
-.story-cards .card div.image div.video video {
+.story-cards .card div.image div.video video,
+.story-cards .card div.image div.watch-whenever-you-want video {
     width: 100%;
     height: 100%;
 }
@@ -84,4 +84,14 @@
 .story-cards .card div.image div.animation .description div {
     margin-top: 0.5rem;
     color: var(--color-netflix-blue);
+}
+
+.story-cards .card div.image div.watch-whenever-you-want {
+    left: 51%;
+    max-height: 64%;
+    max-width: 64%;
+    position: absolute;
+    top: 35%;
+    transform: translate(-50%,-50%);
+    width: 80%;
 }
