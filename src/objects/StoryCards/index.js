@@ -70,7 +70,7 @@ function StoryCards() {
                     </div>
                     
                     <div class="image">
-                        <img src="./src/images/device-pile.png" alt="Imagem de televisão">
+                        <img src="./src/images/device-pile.png" alt="Imagem de dispositivos: monitor, celular e tablet">
 
                         <div class="watch-whenever-you-want">
                             <video autoplay playsinline muted loop>
@@ -82,6 +82,27 @@ function StoryCards() {
                     </div>
                 </div>
             </div>
+
+            ${EndCard()}
+
+            <div class="container">
+                <div class="card">
+                    <div class="image">
+                        <img src="./src/images/childish.png" alt="Infantil">
+                    </div>
+
+                    <div class="text">
+                        <h1>Crie perfis para crianças.</h1>
+                        
+                        <h2>
+                            Deixe as crianças se aventurarem com seus personagens favoritos em um espaço feito só para elas, sem pagar a mais por isso.
+                        </h2>
+                    </div>
+                </div>
+            </div>
+
+            ${EndCard()}
+
         </section>
     `; 
 }
