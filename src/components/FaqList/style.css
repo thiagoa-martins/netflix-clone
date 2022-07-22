@@ -1,7 +1,7 @@
 .faq-list {
     list-style: none;
     max-width: 80%;
-    margin: 4rem auto 0;
+    margin: 0.5rem auto 0;
     font-size: 1.625rem;
 }
 
@@ -35,6 +35,10 @@
     height: 2px;
     background-color: var(--color-netflix-black);
     margin: 0;
+}
+
+.faq-list div.faq-answer {
+    display: none;
 }
 
 .faq-list .answer {
