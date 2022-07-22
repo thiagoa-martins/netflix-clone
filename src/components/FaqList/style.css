@@ -2,41 +2,46 @@
     list-style: none;
     max-width: 80%;
     margin: 4rem auto 0;
+    font-size: 1.625rem;
 }
 
 .faq-list li {
-    position: relative;
-    padding: 1.5rem 2.2rem 1.5rem 1.5rem;
     background-color: var(--color-netflix-gray);
     margin-bottom: 0.5rem;
-    cursor: pointer;
 }
 
-.faq-list li span {
+.faq-list li button {
+    display: flex;
+    justify-content: space-between;
     font-size: 1.625rem;
+    align-items: center;
+    padding: 0.5rem 1.5rem;
     color: var(--color-netflix-white);
-    text-decoration: none;
- }
+    background-color: var(--color-netflix-gray);
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
 
- .faq-list li span::after {
+.faq-list li button::after {
     content: "+";
     font-size: 3rem;
     font-weight: 300;
     display: inline-block;
-    position: absolute;
-    right: 1.5rem;
-    top: 20%;
- }
+}
 
- .faq-list .answer {
-    background-color: var(--color-netflix-gray);
-    margin-top: 0.5rem;
- }
-
- .faq-list .answer::before {
-    content: "";
-    display: block;
-    width: 100%;
-    height: 1px;
+.faq-list li hr {
+    border: none;
+    height: 2px;
     background-color: var(--color-netflix-black);
- }
+    margin: 0;
+}
+
+.faq-list .answer {
+    background-color: var(--color-netflix-gray);
+    padding: 1.5rem;
+    text-align: justify;
+}
+.faq-list .answer p {
+    line-height: 1.2;
+}
