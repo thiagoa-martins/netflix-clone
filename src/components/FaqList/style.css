@@ -38,6 +38,10 @@
     transform: translateY(-50%) rotate(-45deg);
 }
 
+.faq-card li button .svg-open {
+    transform: translateY(-50%);
+}
+
 .faq-list li hr {
     border: none;
     height: 2px;
