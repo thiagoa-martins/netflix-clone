@@ -1,16 +1,15 @@
 import "./style.css";
 
 function FaqList() {
-    
-
     window.faqList = {};
     window.faqList.handleClick = (event) => {
         const $origin = event.target;
         const $li = $origin.closest("li");
+        const $svg = $li.querySelector("svg");
         const $div = $li.querySelector("div");
 
         const $closed = $div.classList.contains("closed");
-        
+
         if($closed) {
             $div.classList.remove("closed");
             $div.classList.add("open");
@@ -18,6 +17,8 @@ function FaqList() {
             $div.classList.remove("open");
             $div.classList.add("closed");
         }
+
+        $svg.classList.toggle("svg-closed");
     }
 
     return /*html*/`
@@ -25,6 +26,8 @@ function FaqList() {
             <li>
                 <button onClick="faqList.handleClick(event)">
                     <span>O que é a Netflix?</span>
+
+                    <svg id="thin-x" viewBox="0 0 26 26" class="svg-closed" focusable="true"><path d="M10.5 9.3L1.8 0.5 0.5 1.8 9.3 10.5 0.5 19.3 1.8 20.5 10.5 11.8 19.3 20.5 20.5 19.3 11.8 10.5 20.5 1.8 19.3 0.5 10.5 9.3Z"></path></svg>
                 </button>
 
                 <hr>
@@ -43,6 +46,8 @@ function FaqList() {
             <li>
                 <button onClick="faqList.handleClick(event)">
                     <span>Quando custa a Netflix?</span>
+                    
+                    <svg id="thin-x" viewBox="0 0 26 26" class="svg-closed" focusable="true"><path d="M10.5 9.3L1.8 0.5 0.5 1.8 9.3 10.5 0.5 19.3 1.8 20.5 10.5 11.8 19.3 20.5 20.5 19.3 11.8 10.5 20.5 1.8 19.3 0.5 10.5 9.3Z"></path></svg>
                 </button>
 
                 <hr>
@@ -57,6 +62,8 @@ function FaqList() {
             <li>
                 <button onClick="faqList.handleClick(event)">
                     <span>Onde posso assistir?</span>
+
+                    <svg id="thin-x" viewBox="0 0 26 26" class="svg-closed" focusable="true"><path d="M10.5 9.3L1.8 0.5 0.5 1.8 9.3 10.5 0.5 19.3 1.8 20.5 10.5 11.8 19.3 20.5 20.5 19.3 11.8 10.5 20.5 1.8 19.3 0.5 10.5 9.3Z"></path></svg>
                 </button>
 
                 <hr>
@@ -75,6 +82,8 @@ function FaqList() {
             <li>
                 <button onClick="faqList.handleClick(event)">
                     <span>Como faço para cancelar?</span>
+
+                    <svg id="thin-x" viewBox="0 0 26 26" class="svg-closed" focusable="true"><path d="M10.5 9.3L1.8 0.5 0.5 1.8 9.3 10.5 0.5 19.3 1.8 20.5 10.5 11.8 19.3 20.5 20.5 19.3 11.8 10.5 20.5 1.8 19.3 0.5 10.5 9.3Z"></path></svg>
                 </button>
 
                 <hr>
@@ -89,6 +98,8 @@ function FaqList() {
             <li>
                 <button onClick="faqList.handleClick(event)">
                     <span>O que eu posso assistir na Netflix?</span>
+
+                    <svg id="thin-x" viewBox="0 0 26 26" class="svg-closed" focusable="true"><path d="M10.5 9.3L1.8 0.5 0.5 1.8 9.3 10.5 0.5 19.3 1.8 20.5 10.5 11.8 19.3 20.5 20.5 19.3 11.8 10.5 20.5 1.8 19.3 0.5 10.5 9.3Z"></path></svg>
                 </button>
 
                 <hr>
@@ -103,6 +114,8 @@ function FaqList() {
             <li>
                 <button onClick="faqList.handleClick(event)">
                     <span>Onde posso assistir?</span>
+
+                    <svg id="thin-x" viewBox="0 0 26 26" class="svg-closed" focusable="true"><path d="M10.5 9.3L1.8 0.5 0.5 1.8 9.3 10.5 0.5 19.3 1.8 20.5 10.5 11.8 19.3 20.5 20.5 19.3 11.8 10.5 20.5 1.8 19.3 0.5 10.5 9.3Z"></path></svg>
                 </button>
 
                 <hr>

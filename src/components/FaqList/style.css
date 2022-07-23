@@ -12,10 +12,11 @@
 
 .faq-list li button {
     display: flex;
+    position: relative;
     justify-content: space-between;
     font-size: 1.625rem;
     align-items: center;
-    padding: 0.5rem 1.5rem;
+    padding: 1.5rem 2rem;
     color: var(--color-netflix-white);
     background-color: var(--color-netflix-gray);
     border: none;
@@ -23,11 +24,18 @@
     width: 100%;
 }
 
-.faq-list li button::after {
-    content: "+";
-    font-size: 3rem;
-    font-weight: 300;
-    display: inline-block;
+.faq-list li button svg {
+    fill: #fff;
+    height: 1em;
+    position: absolute;
+    right: 1em;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 1em;
+}
+
+.faq-card li button .svg-closed {
+    transform: translateY(-50%) rotate(-45deg);
 }
 
 .faq-list li hr {
@@ -60,11 +68,4 @@
 .faq-list .faq-answer.open {
     max-height: 1200px;
     transition: max-height .25s cubic-bezier(.5,0,.1,1);
-}
-
-.faq-list .faq-answer.open button::after {
-    content: "x";
-    font-size: 3rem;
-    font-weight: 300;
-    display: inline-block;
 }
