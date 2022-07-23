@@ -37,15 +37,34 @@
     margin: 0;
 }
 
-.faq-list div.faq-answer {
-    display: none;
+.faq-list .faq-answer {
+    overflow: hidden;
 }
 
-.faq-list .answer {
+.faq-list .faq-answer span {
+    display: inline-block;
     background-color: var(--color-netflix-gray);
     padding: 1.5rem;
     text-align: justify;
-}
-.faq-list .answer p {
+    overflow: hidden;
     line-height: 1.2;
+    font-size: 1.625rem;
+}
+
+.faq-list .faq-answer.closed {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height .25s cubic-bezier(.5,0,.1,1);
+}
+
+.faq-list .faq-answer.open {
+    max-height: 1200px;
+    transition: max-height .25s cubic-bezier(.5,0,.1,1);
+}
+
+.faq-list .faq-answer.open button::after {
+    content: "x";
+    font-size: 3rem;
+    font-weight: 300;
+    display: inline-block;
 }
