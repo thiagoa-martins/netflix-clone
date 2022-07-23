@@ -2,7 +2,7 @@ import "./style.css";
 
 function LanguageButton() {
     return /*html*/`
-        <form>
+        <form class="form-language">
             <select name="select" class="language-button">
                 <option value="portuguese">Português</option>
                 <option value="english">English</option>

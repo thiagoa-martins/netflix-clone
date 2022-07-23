@@ -4,3 +4,16 @@
     margin: 3rem 0;
     text-align: center;
 }
+
+.faq-card h3 {
+    font-size: 1.2rem;
+    text-align: center;
+    margin-top: 4rem;
+}
+
+.faq-card .text {
+    max-width: 730px;
+    text-align: center;
+    font-weight: 500;
+    margin: 0 auto;
+}

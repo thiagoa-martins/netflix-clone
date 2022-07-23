@@ -13,21 +13,24 @@
 }
 
 .signed-section .text {
-    max-width: 940px;
+    max-width: 730px;
     text-align: center;
     font-weight: 500;
     margin: 0 auto;
 }
 
 .signed-section .text h1 {
-    font-size: 4rem;
+    font-size: 3.125rem;
+    /* font-weight: bold; */
 }
 
 .signed-section .text h2 {
     font-size: 1.625rem;
     margin: 1rem 0 2rem;
+    font-weight: 400;
 }
 
 .signed-section .text h3 {
     font-size: 1.2rem;
+    font-weight: 400;
 }

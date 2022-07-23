@@ -1,8 +1,46 @@
-.language-button {
-    background-color: rgba(0, 0, 0, 0.5);
+.form-language {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: var(--color-netflix-white);
-    padding: 10px 5px;
-    border: 1px solid var(--color-netflix-white);
-    border-radius: 5px;
+    border: 1.8px solid var(--color-netflix-white);
+    border-radius: 4px;
     margin-right: 2rem;
+    max-height: 40px;
+}
+
+.form-language::before {
+    content: "🌐";
+    display: inline-block;
+    margin-left: 0.5rem;
+}
+
+.form-language::after {
+    content: "⏷";
+    display: inline-block;
+    margin-right: 0.5rem;
+}
+
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 1px;
+    text-overflow: '';
+}
+
+.form-language .language-button {  
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    color: var(--color-netflix-white);
+    border: none;
+    padding: 10px 5px;
+    outline: none;
+    border: none;
+    font-size: 0.8em;
+    font-weight: bold;
+}
+
+.form .language-button option {
+    width: 100%;
+    height: 100%;
 }

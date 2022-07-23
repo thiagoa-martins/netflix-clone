@@ -1,6 +1,7 @@
 .logo-netflix {
+    height: 2.25rem;
+    width: 8.375rem;
+    fill: #e50914;
     text-transform: uppercase;
     font-weight: bold;
-    font-size: 2.25rem;
-    color: var(--color-netflix-red);
 }
