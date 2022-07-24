@@ -1,0 +1,51 @@
+.site-footer {
+    margin: 3rem auto 0;
+    color: var(--color-netflix-lite-gray);
+    max-width: 1000px;
+}
+
+.site-footer p.doubts {
+    font-size: 1rem;
+    margin-bottom: 1.875rem;
+}
+
+.site-footer div.lists {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.8125rem;
+}
+
+.site-footer div.lists .list {
+    list-style: none;
+}
+
+.site-footer div.lists .list li {
+    margin-bottom: 1rem;
+}
+
+.site-footer div.lists .list li a {
+    text-decoration: none;
+    color: var(--color-netflix-lite-gray);
+}
+
+.site-footer div.lists .list li a:hover {
+    text-decoration: underline;
+}
+
+.site-footer .form-language {
+    width: 9rem;
+    padding: 0.5rem 0;
+    color: var(--color-netflix-lite-gray);
+    border: 1px solid var(--color-netflix-lite-gray);
+    margin: 1rem 0;
+}
+
+.site-footer .form-language select {
+    color: var(--color-netflix-lite-gray);
+
+}
+
+.site-footer p.netflix {
+    margin-top: 2rem;
+    font-size: 0.8125rem;
+}
