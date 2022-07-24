@@ -5,6 +5,7 @@ import SignedSection from "./src/objects/SignedSection";
 import EndCard from "./src/components/EndCard";
 import StoryCards from "./src/objects/StoryCards";
 import FaqCard from "./src/objects/FaqCard";
+import SiteFooter from "./src/objects/SiteFooter";
 
 const $root = document.querySelector("#root");
 
@@ -15,6 +16,7 @@ $root.insertAdjacentHTML(
    ${EndCard()}
    ${StoryCards()}
    ${FaqCard()}
+   ${SiteFooter()}
   `
 );
 

@@ -1,4 +1,5 @@
 import CreateAccount from "../../components/CreateAccount";
+import EndCard from "../../components/EndCard";
 import FaqList from "../../components/FaqList";
 import "./style.css";
 
@@ -16,6 +17,8 @@ function FaqCard() {
                     ${CreateAccount()}
                </div>
             </div>
+
+            ${EndCard()}
         </section>
     `;
 }

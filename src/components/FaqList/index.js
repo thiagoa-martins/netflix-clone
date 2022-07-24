@@ -8,10 +8,6 @@ function FaqList() {
         const $svg = $li.querySelector("svg");
         const $div = $li.querySelector("div");
 
-        const $faqList = document.querySelector(".faq-list");
-        const $divOpenList = $faqList.querySelectorAll(".open");
-        const $svgList = $faqList.querySelectorAll("svg");
-
         const $divClosed = $div.classList.contains("closed");
 
         if($divClosed) {
@@ -27,22 +23,6 @@ function FaqList() {
             $svg.classList.remove("svg-open");
             $svg.classList.add("svg-closed");
         }
-
-        $divOpenList.forEach((divOpen) => {
-            divOpen.classList.remove("open");
-            divOpen.classList.add("closed");
-            
-            $svg.classList.remove("svg-open");
-
-            $svgList.forEach((svg) => {
-                const $hasSvgOpen = svg.classList.contains("svg-open");
-
-                if($hasSvgOpen) {
-                    svg.classList.remove("svg-open");
-                    svg.classList.add("svg-closed"); 
-                }
-            });
-        });
     }
 
     return /*html*/`
